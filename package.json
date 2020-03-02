@@ -1,0 +1,23 @@
+{
+  "name": "gtbc-employee-tracker",
+  "version": "1.0.0",
+  "description": "****************************************** What would you like to do?    * Add        - Department          - ID, Name        - Roles         - ID, Title, Salary, Department        - Employees         - First Name, Last Name, Role, Manager    * View       - Department         > Displays Name, total Cost        - Roles          > Displays Title, Salary, Department        - Employees          - By Manager            > Display all Employees under manager         - All            > Displays all Employees    * Update        - Department        - Roles        - Employees",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeyoh/GTBC-Employee-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leeyoh/GTBC-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/leeyoh/GTBC-Employee-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^7.0.5",
+    "mysql": "^2.18.1"
+  }
+}
