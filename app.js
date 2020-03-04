@@ -151,8 +151,12 @@ function viewDb(answers){
 							})
 							prompt()
 						}
+						
 					})
 				})
+				if(res.length === 0){
+					prompt()
+				}
 			})
 			break; 
 		case "Roles":

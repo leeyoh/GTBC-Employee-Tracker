@@ -25,12 +25,8 @@ CREATE TABLE employee (
   last_name VARCHAR(30) NOT NULL,
   role_id INT NOT NULL, 
   manager_id INT NULL, 
-  FOREIGN KEY (deparment_id) REFERENCES role(department_id),
+
   FOREIGN KEY (role_id) REFERENCES role(id),
   FOREIGN KEY (manager_id) REFERENCES employee(id),
   PRIMARY KEY (id)
 );
-
-
-SELECT * FROM department;
-SELECT * FROM employee WHERE role_id = 0 or 1 or 3; 
